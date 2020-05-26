@@ -66,7 +66,7 @@ class TicTacToe
   end
   
   def won 
-    WIN_COMBINATIONS.each do |combination|
+    WIN_COMBINATIONS.any? do |combination|
       
   end
 end
