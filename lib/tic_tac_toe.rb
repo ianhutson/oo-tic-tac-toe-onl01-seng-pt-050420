@@ -78,7 +78,10 @@ class TicTacToe
       sq != " "
     end
   end
+  
   def draw?
     full? && !won?
   end
+  
+  
 end
