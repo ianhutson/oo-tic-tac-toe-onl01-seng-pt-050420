@@ -74,6 +74,6 @@ class TicTacToe
   end
   
   def full?
-    @board.all?
+    @board.all? do ||
   end
 end
