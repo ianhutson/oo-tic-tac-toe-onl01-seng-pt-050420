@@ -92,4 +92,6 @@ class TicTacToe
       @board[combo[0]]
     end
   end
+  
+  
 end
